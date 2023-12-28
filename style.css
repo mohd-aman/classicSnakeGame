@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 50vw;
+    background-color: #F6FDC3;
+    margin: auto;
+}
+
+.score{
+ height: 10%;
+ background-color: #CDFAD5;
+ width: 100%;
+}
+
+.game-container{
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+}
+
+.food{
+    background-color: green;
+    border-radius: 50%;
+}
+
+.head{
+    background-color: red;
+}
